@@ -66,6 +66,6 @@ const maxOfExpressions = (expressions) => {
     return Math.max(...subresult)
 }
 
-console.log(numbarith([3, 4], ['+', '-']))
-console.log(numbarith([5, 3, 4], ['+', '-', '*']))
-console.log(numbarith([1, 0, 4], ['+', '/', '*']))
+console.log(numbarith([3, 4], ['+', '-'])) // => 1
+console.log(numbarith([5, 3, 4], ['+', '-', '*'])) // => 11
+console.log(numbarith([1, 0, 4], ['+', '/', '*'])) // => 4
